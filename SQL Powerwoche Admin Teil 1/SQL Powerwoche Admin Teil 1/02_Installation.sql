@@ -48,6 +48,7 @@
 
 
 --TEMPDB sollte eigtl eig HDDs haben
+--Datendateien soviele wie Kerne.. max 8
 
 
 --Arbeitsspeicher
