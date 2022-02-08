@@ -31,3 +31,8 @@
 
  # 9. Restore
  # Backupplan
+
+ # 10 Security
+ # Logins vs User
+ # Verwendung des Schemas
+ # 
