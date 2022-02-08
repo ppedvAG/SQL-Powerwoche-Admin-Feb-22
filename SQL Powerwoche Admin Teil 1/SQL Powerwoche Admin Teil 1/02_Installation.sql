@@ -15,7 +15,7 @@
 
 
 --Pfade
---Binärkram.. egal 
+--Binärkram.. egal ..
 --Pfade für DBs 
 	--Pfad für Daten und Pfad für Logdatei
 	--Trenne Log von Daten physikalisch per versch HDDs...!
@@ -32,7 +32,9 @@
 --SQL Server   
 --SQL Agent (Jobs per Zeitplan)
 --Volltextsuche
---Browser
+--Browse
+--Falls ein Dienstkonto geändert werden, dann nicht bei den Diensten
+--im Konfigurationsmanager
 
 --Verw. Dienstkonten.. autom Kennwortänderungen
 --Lokales Konto -- arbeitet im Netz mit dem Computerkonto
@@ -49,6 +51,7 @@
 
 --TEMPDB sollte eigtl eig HDDs haben
 --Datendateien soviele wie Kerne.. max 8
+--verschieben , dann nur per TSQL
 
 
 --Arbeitsspeicher

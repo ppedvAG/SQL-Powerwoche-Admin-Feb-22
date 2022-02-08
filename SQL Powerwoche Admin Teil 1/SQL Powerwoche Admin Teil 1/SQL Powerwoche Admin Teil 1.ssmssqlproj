@@ -67,6 +67,18 @@
           <AssociatedConnUserName />
           <FullPath>08_DB Design.sql</FullPath>
         </FileNode>
+        <FileNode Name="09_Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>09_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Wiederholung Tag 1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Wiederholung Tag 1.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
