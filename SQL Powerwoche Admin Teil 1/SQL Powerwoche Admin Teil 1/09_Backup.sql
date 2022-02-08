@@ -185,6 +185,143 @@ GO
 --Sicherung des Logfiles..alle Daten gesichert
 --Restore von 11:46...
 
+--V D --vs--- T
+--V und D sichern einen Zeitpunkt.. bei Wiederherstellungsmodel einfach
+--T sichert den Weg zu den Daten
+--wenn man von Fulll auf Simple geht: T Sicherungen per Job gehen nicht mehr
+--man verliert TX, Logdatei wid leerer. 
+
+--
+
+---1. HDD defekt
+--	2. Datei defekt
+--	3. Daten versehentl manipuliert  !
+--	4. Ich weiss, dass gleich was passieren kann
+--	5. Server ist tot seit 15min ,aber ein HDD oder sogar  2 HDDs leben
+--Backup ist aber 2 Stunden alt
+
+
+
+
+-- Fall 5 DB Offline: deta
+
+
+
+--Fall 4: Ich weiss, dass gleich was passiert
+
+
+--Snapshot Sicherung: Momentaufnahme
+
+
+
+
+-- Create the database snapshot
+CREATE DATABASE DBNAME
+ON
+( NAME =LogischerNamederOrigDBdatendatei ,
+FILENAME = 'D:\_SQLDB\DBNAME.mdf' ) --zunächst 128kb
+AS SNAPSHOT OF OrignalDB;
+GO
+
+
+CREATE DATABASE SN_Nwind_1430
+ON
+(
+	NAME =Northwind ,
+	FILENAME = 'D:\_SQLDB\SN_Nwind_1430.mdf' 
+) --zunächst 128kb
+AS SNAPSHOT OF Northwind;
+GO
+
+--man kann mehrere Snapshots anlegen
+
+--Kann man einen Snapshot sichern?
+--Nö
+
+--Kann man einen Snapshot restoren?
+--erst recht nicht!!!!!
+
+--Backup der OrigDB?
+--jupp ..geht!
+
+--Restore der OrigDb aus Backup, wenn Snapshot vorhanden?
+--Nö..! Erst alle Snapshots löschen..!
+
+--Kann man denn den Snapshot zum Restore verwenden?
+--Ja geht...
+
+
+--nur per TSQL...
+--Rahmenbedingungen
+--keiner darf auf dem Snapshot sein
+--keiner darf auf der OrigDB sein
+
+use master
+
+restore database northwind from database_snapshot = 'SN_Nwind_1430'
+
+use master
+GO
+select * from sysprocesses where spid > 50-- alle Prozesse der User
+
+--dbid = Datenbank Nummer
+select db_id('northwind'),db_id('sn_nwind_1430')
+
+
+select * from sysprocesses where spid > 50 and dbid in(5,9) --spid suchen
+
+--70!!
+
+kill 70---
+--alternative
+ALTER DATABASE [Northwind] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+restore database northwind from database_snapshot = 'SN_Nwind_1430'
+
+
+--Sicherungszeitplan
+
+
+--DBX  :   1500GB
+--Arbeitszeiten:  MoSo
+--                           6:00 bis 18:00
+
+--Ausfallzeit in min:			1 Stunde
+--Datenverlust in Zeit:       1 Stunde
+
+select 50.000/300/60--nicht mehr machbar--> Hochverfügbarkeit (3 Sekunden..)
+
+--50Gb in 2 min
+
+--TLog: 20 bis 40MB/Sek
+--50GB
+
+--Vollsicherung: täglich 19 Uhr  Mo bis So
+--T (Datenverlust)..alle 30min.. alle 15 min Mo bis So von 6:15 bis 18:16
+--D alle 3 bis 4 T  von Mo bis So  von 7:05 bis 18:10
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select * from [SN_Nwind_1430].dbo.orders--kommt direkt von Northwind
+
+
+
+
 
 
 
