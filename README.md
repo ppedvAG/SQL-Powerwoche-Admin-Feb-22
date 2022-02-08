@@ -23,3 +23,11 @@
  # Datentypen
  # Normalsierung vs Redundanz
 
+
+ # 8. Backup
+ # Recoverymodel
+ # Rolle des Protkollfragments
+ # Snapshot
+
+ # 9. Restore
+ # Backupplan
