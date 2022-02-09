@@ -41,8 +41,7 @@
 
 -->NT Service\mssqlserver
 
---auch wenn wir beim Setuo kein NT Servicekonto, so wird das immer 
---bei lok Zugriffen verwenden.
+--auch wenn wir beim Setuo kein NT Servicekonto angeben, so wird das immer --bei lok Zugriffen verwenden.
 
 
 --Instanzfeature: Volltextsuche und Replikation zu SQL DB Engine
