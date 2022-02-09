@@ -20,6 +20,6 @@
 --Auswerten evtl per TSQL etwas einfacher
 
 SELECT * FROM sys.fn_get_audit_file
-('d:\_SQLDB\Audit_Security_9DA69CF6-3966-475B-A91C-A010035E3413_0_132827606564710000.sqlaudit',default,default)
-where database_principal_name = 'Otto'
+('d:\_Backup\SicherheitsAudit_1CDABFEA-9AB5-4830-ABA7-F0A7C6D74C47_0_132888787781870000.sqlaudit',default,default)
+where database_principal_name = 'Peter2'
 GO  

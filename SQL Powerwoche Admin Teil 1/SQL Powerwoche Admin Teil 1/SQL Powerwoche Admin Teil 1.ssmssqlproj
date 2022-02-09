@@ -80,8 +80,8 @@
           <FullPath>10_Security.sql</FullPath>
         </FileNode>
         <FileNode Name="12_Audit.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12_Audit.sql</FullPath>
         </FileNode>
@@ -90,6 +90,30 @@
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>14_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Verwaltung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Verwaltung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_Hochverfügbarkeit.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_Hochverfügbarkeit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_Messungen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_Messungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Glenn Berry DMVs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Glenn Berry DMVs.sql</FullPath>
         </FileNode>
         <FileNode Name="Wiederholung Tag 1.sql">
           <AssociatedConnectionMoniker />
@@ -108,6 +132,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>X_sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Spieltabelle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_Spieltabelle.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
