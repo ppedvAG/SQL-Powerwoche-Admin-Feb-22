@@ -36,3 +36,17 @@
  # Logins vs User
  # Verwendung des Schemas
  # 
+
+
+ # Virtualisierungsprobleme
+
+ # Maxdop
+
+ # DB Design 
+ ## phsiklaisches Layout : Seiten Blöcke
+
+ # Kompression
+
+ # Partitionierung
+
+ 
