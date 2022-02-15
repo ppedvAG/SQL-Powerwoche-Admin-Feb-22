@@ -27,7 +27,7 @@ Allerdings immer auf physikalische Architektur achten
 
 
 DS werden in Seiten gespeichert
-8 Seiten am Stück = 1 Block
+8 Seiten am Stück = 1 Block = 64
 
 
 1 Seite immer 8192 bytes

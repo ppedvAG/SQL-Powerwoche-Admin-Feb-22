@@ -48,5 +48,35 @@
  # Kompression
 
  # Partitionierung
+# SQL Tuning und Monitoring
 
- 
+# Virtualisierung
+
+# Setup 
+## best practice
+
+# Serversetttings
+
+# DB Settings
+
+# DB Objekte
+
+# DB Design
+## Normalisierung vs Redundanz
+## Seiten und Blöcke
+
+# Kompression
+
+# Partitionierung
+## part Sicht
+## Dateigruppen
+## Partitionierung (F() und part Schema)
+
+# Monitoring
+## Query Store
+
+# Indizes
+# IX Strategie
+## IX Wartung
+
+

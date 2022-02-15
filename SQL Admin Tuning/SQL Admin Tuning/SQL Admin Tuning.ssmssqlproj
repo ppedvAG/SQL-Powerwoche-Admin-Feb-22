@@ -38,14 +38,14 @@
           <FullPath>03_DBSettings.sql</FullPath>
         </FileNode>
         <FileNode Name="04_DB_Objekte.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04_DB_Objekte.sql</FullPath>
         </FileNode>
         <FileNode Name="05_DB_Design.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_DB_Design.sql</FullPath>
         </FileNode>
@@ -67,17 +67,59 @@
           <AssociatedConnUserName />
           <FullPath>08_Partitionierung.sql</FullPath>
         </FileNode>
+        <FileNode Name="10_Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10a_Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10a_Überflüssige Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10b_Wartung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10b_Wartung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Monitoring.sql</FullPath>
+        </FileNode>
         <FileNode Name="instnwnd.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>instnwnd.sql</FullPath>
         </FileNode>
+        <FileNode Name="Wiederholung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Wiederholung.sql</FullPath>
+        </FileNode>
         <FileNode Name="Z_Fix_VLF.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Z_Fix_VLF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Glenn Berry DMVs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_Glenn Berry DMVs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Spieltabelle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_Spieltabelle.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
